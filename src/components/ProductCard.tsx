@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function ProductCard({ product }: { product: any }) {
   return (
-    <div className="group relative border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
-      <div className="relative aspect-w-1 aspect-h-1 bg-gray-100 group-hover:opacity-75 h-64 overflow-hidden">
+    <div className="group relative border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 flex flex-col">
+      <div className="relative h-64 w-full bg-gray-100 group-hover:opacity-75 overflow-hidden">
         <img
           src={product.images[0] || "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500"}
           alt={product.title}
@@ -36,9 +36,9 @@ export default function ProductCard({ product }: { product: any }) {
         </div>
       </div>
       <div className="px-4 pb-4">
-        <button className="w-full bg-indigo-50 text-indigo-700 py-2 rounded-md text-sm font-semibold hover:bg-indigo-600 hover:text-white transition-colors relative z-10">
-          Add to Cart
-        </button>
+        <Link href={`/shop/${product.slug}`} className="block text-center w-full bg-indigo-50 text-indigo-700 py-2 rounded-md text-sm font-semibold hover:bg-indigo-600 hover:text-white transition-colors relative z-10">
+          View Details
+        </Link>
       </div>
     </div>
   );

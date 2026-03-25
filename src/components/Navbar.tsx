@@ -45,8 +45,7 @@ export default function Navbar() {
                       <p className="text-xs text-gray-500 uppercase font-semibold tracking-wider">Account</p>
                       <p className="text-sm font-medium text-gray-900 truncate">{session.user?.email}</p>
                     </div>
-                    <Link href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-600">Profile</Link>
-                    <Link href="/orders" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-600">My Orders</Link>
+                    <Link href="/cart" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-600">My Cart</Link>
                     {(session.user as any)?.role === "admin" && (
                       <Link href="/admin" className="block px-4 py-2 text-sm text-indigo-600 font-medium hover:bg-indigo-50 mt-1 pb-2">Admin Dashboard</Link>
                     )}

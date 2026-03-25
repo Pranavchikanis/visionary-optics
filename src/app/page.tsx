@@ -45,7 +45,7 @@ export default function Home() {
           Shop by Category
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Link href="/shop?category=frames" className="group relative rounded-2xl overflow-hidden shadow-lg aspect-w-4 aspect-h-5 h-96 block">
+          <Link href="/shop?category=frames" className="group relative rounded-2xl overflow-hidden shadow-lg h-96 block">
             <img
               src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Frames"
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/shop?category=sunglasses" className="group relative rounded-2xl overflow-hidden shadow-lg aspect-w-4 aspect-h-5 h-96 block">
+          <Link href="/shop?category=sunglasses" className="group relative rounded-2xl overflow-hidden shadow-lg h-96 block">
             <img
               src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Sunglasses"
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/shop?category=premium" className="group relative rounded-2xl overflow-hidden shadow-lg aspect-w-4 aspect-h-5 h-96 block">
+          <Link href="/shop?category=premium" className="group relative rounded-2xl overflow-hidden shadow-lg h-96 block">
             <img
               src="https://images.unsplash.com/photo-1509695507497-903c140c43b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Premium Collection"

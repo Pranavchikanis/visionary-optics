@@ -25,7 +25,7 @@ export default async function ProductDetailPage(props: { params: Promise<{ slug:
         <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
           
           {/* Image gallery */}
-          <div className="rounded-lg overflow-hidden lg:block aspect-w-3 aspect-h-4 shadow-lg border border-gray-100">
+          <div className="rounded-lg overflow-hidden lg:block h-[500px] w-full relative shadow-lg border border-gray-100">
             <img
               src={serializedProduct.images[0] || "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800"}
               alt={serializedProduct.title}
