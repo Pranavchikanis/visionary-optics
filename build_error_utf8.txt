@@ -1,0 +1,1735 @@
+﻿
+> optics-app@0.1.0 build
+> next build
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ΓÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of C:\Use
+rs\Pranav\package-lock.
+json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\Pranav\We
+bsite Projects\Optics 
+Store\package-lock.json
+
+Γû▓ Next.js 16.2.1 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 28 errors:
+./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts:2:1
+Module not found: 
+Can't resolve 
+'Razorpay'
+  [90m1 |[0m 
+[36mimport[0m { 
+[33mNextResponse[0m 
+} [36mfrom[0m 
+[32m"next/server"[0m;
+[31m[1m>[0m [90m2 
+|[0m [36mimport[0m 
+[33mRazorpay[0m 
+[36mfrom[0m 
+[32m"Razorpay"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m3 |[0m 
+[36mimport[0m { 
+getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m5 |[0m
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/auth/registe
+r/route.ts:4:1
+Module not found: 
+Can't resolve 
+'bcryptjs'
+  [90m2 |[0m 
+[36mimport[0m 
+connectToDatabase 
+[36mfrom[0m [32m"@/l
+ib/mongodb"[0m;
+  [90m3 |[0m 
+[36mimport[0m 
+[33mUser[0m 
+[36mfrom[0m [32m"@/m
+odels/User"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+bcrypt [36mfrom[0m 
+[32m"bcryptjs"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mPOST[0m(req: 
+[33mRequest[0m) {
+  [90m7 |[0m   
+[36mtry[0m {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/seed/route.t
+s:6:1
+Module not found: 
+Can't resolve 
+'bcryptjs'
+  [90m4 |[0m 
+[36mimport[0m 
+[33mProduct[0m 
+[36mfrom[0m [32m"@/m
+odels/Product"[0m;
+  [90m5 |[0m 
+[36mimport[0m 
+[33mUser[0m 
+[36mfrom[0m [32m"@/m
+odels/User"[0m;
+[31m[1m>[0m [90m6 
+|[0m [36mimport[0m 
+bcrypt [36mfrom[0m 
+[32m"bcryptjs"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^[0m
+  [90m7 |[0m
+  [90m8 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mGET[0m() {
+  [90m9 |[0m   
+[36mtry[0m {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts:3
+:1
+Module not found: 
+Can't resolve 
+'bcryptjs'
+  [90m1 |[0m 
+[36mimport[0m { [33m
+NextAuthOptions[0m } 
+[36mfrom[0m 
+[32m"next-auth"[0m;
+  [90m2 |[0m 
+[36mimport[0m [33mCr
+edentialsProvider[0m 
+[36mfrom[0m [32m"nex
+t-auth/providers/creden
+tials"[0m;
+[31m[1m>[0m [90m3 
+|[0m [36mimport[0m 
+bcrypt [36mfrom[0m 
+[32m"bcryptjs"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m 
+connectToDatabase 
+[36mfrom[0m 
+[32m"./mongodb"[0m;
+  [90m5 |[0m 
+[36mimport[0m 
+[33mUser[0m 
+[36mfrom[0m [32m"@/m
+odels/User"[0m;
+  [90m6 |[0m
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/lib/mongodb.ts:1:1
+Module not found: 
+Can't resolve 
+'mongoose'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+mongoose [36mfrom[0m 
+[32m'mongoose'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mconst[0m 
+[33mMONGODB_URI[0m = 
+process.env.[33mMONGOD
+B_URI[0m;
+  [90m4 |[0m
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/mongodb.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/ver
+ify/route.ts
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/mongodb.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/shop/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/models/Category.ts:1
+:1
+Module not found: 
+Can't resolve 
+'mongoose'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+mongoose, { 
+[33mSchema[0m, 
+model, models } 
+[36mfrom[0m 
+[32m'mongoose'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mconst[0m 
+categorySchema = 
+[36mnew[0m 
+[33mSchema[0m(
+  [90m4 |[0m   {
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Category.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/seed/route.t
+s
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Category.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/shop/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/models/Order.ts:1:1
+Module not found: 
+Can't resolve 
+'mongoose'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+mongoose, { 
+[33mSchema[0m, 
+model, models } 
+[36mfrom[0m 
+[32m'mongoose'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mconst[0m 
+orderSchema = 
+[36mnew[0m 
+[33mSchema[0m(
+  [90m4 |[0m   {
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Order.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/ver
+ify/route.ts
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Order.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/admin/orders/pag
+e.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/models/Product.ts:1:
+1
+Module not found: 
+Can't resolve 
+'mongoose'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+mongoose, { 
+[33mSchema[0m, 
+model, models } 
+[36mfrom[0m 
+[32m'mongoose'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mconst[0m 
+productSchema = 
+[36mnew[0m 
+[33mSchema[0m(
+  [90m4 |[0m   {
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Product.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/seed/route.t
+s
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/models/Product.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/admin/page.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/models/User.ts:1:1
+Module not found: 
+Can't resolve 
+'mongoose'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+mongoose, { 
+[33mSchema[0m, 
+model, models } 
+[36mfrom[0m 
+[32m'mongoose'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mconst[0m 
+userSchema = 
+[36mnew[0m 
+[33mSchema[0m(
+  [90m4 |[0m   {
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/models/User.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/seed/route.t
+s
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/models/User.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/admin/orders/pag
+e.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/auth/[...nex
+tauth]/route.ts:1:1
+Module not found: 
+Can't resolve 
+'next-auth'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+[33mNextAuth[0m 
+[36mfrom[0m 
+[32m"next-auth"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^[0m
+  [90m2 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m3 |[0m
+  [90m4 |[0m 
+[36mconst[0m handler 
+= [33mNextAuth[0m(aut
+hOptions);
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+:1:1
+Module not found: 
+Can't resolve 
+'next-auth/next'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+{ getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m2 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m3 |[0m 
+[36mimport[0m { 
+redirect } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/categories/r
+oute.ts:4:1
+Module not found: 
+Can't resolve 
+'next-auth/next'
+  [90m2 |[0m 
+[36mimport[0m 
+connectToDatabase 
+[36mfrom[0m [32m"@/l
+ib/mongodb"[0m;
+  [90m3 |[0m 
+[36mimport[0m 
+[33mCategory[0m 
+[36mfrom[0m [32m"@/m
+odels/Category"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+{ getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m6 |[0m
+  [90m7 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mGET[0m(req: 
+[33mRequest[0m) {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/orders/route
+.ts:5:1
+Module not found: 
+Can't resolve 
+'next-auth/next'
+  [90m3 |[0m 
+[36mimport[0m 
+[33mOrder[0m 
+[36mfrom[0m [32m"@/m
+odels/Order"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+[33mProduct[0m 
+[36mfrom[0m [32m"@/m
+odels/Product"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m7 |[0m
+  [90m8 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mGET[0m(req: 
+[33mRequest[0m) {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/products/rou
+te.ts:5:1
+Module not found: 
+Can't resolve 
+'next-auth/next'
+  [90m3 |[0m 
+[36mimport[0m 
+[33mProduct[0m 
+[36mfrom[0m [32m"@/m
+odels/Product"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+[33mCategory[0m 
+[36mfrom[0m [32m"@/m
+odels/Category"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m7 |[0m
+  [90m8 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mGET[0m(req: 
+[33mRequest[0m) {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts:3:1
+Module not found: 
+Can't resolve 
+'next-auth/next'
+  [90m1 |[0m 
+[36mimport[0m { 
+[33mNextResponse[0m 
+} [36mfrom[0m 
+[32m"next/server"[0m;
+  [90m2 |[0m 
+[36mimport[0m 
+[33mRazorpay[0m 
+[36mfrom[0m 
+[32m"Razorpay"[0m;
+[31m[1m>[0m [90m3 
+|[0m [36mimport[0m 
+{ getServerSession } 
+[36mfrom[0m [32m"nex
+t-auth/next"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m { 
+authOptions } 
+[36mfrom[0m [32m"@/l
+ib/authOptions"[0m;
+  [90m5 |[0m
+  [90m6 |[0m 
+[36mexport[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mPOST[0m(req: 
+[33mRequest[0m) {
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts:2
+:1
+Module not found: 
+Can't resolve 'next-aut
+h/providers/credentials
+'
+  [90m1 |[0m 
+[36mimport[0m { [33m
+NextAuthOptions[0m } 
+[36mfrom[0m 
+[32m"next-auth"[0m;
+[31m[1m>[0m [90m2 
+|[0m [36mimport[0m 
+[33mCredentialsProvider
+[0m [36mfrom[0m [32
+m"next-auth/providers/c
+redentials"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^[
+0m
+  [90m3 |[0m 
+[36mimport[0m bcrypt 
+[36mfrom[0m 
+[32m"bcryptjs"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+connectToDatabase 
+[36mfrom[0m 
+[32m"./mongodb"[0m;
+  [90m5 |[0m 
+[36mimport[0m 
+[33mUser[0m 
+[36mfrom[0m [32m"@/m
+odels/User"[0m;
+
+
+
+Import traces:
+  App Route:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts
+
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts
+    ./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx:6:
+1
+Module not found: 
+Can't resolve 
+'next-auth/react'
+  [90m4 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mFiTrash2[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+[31m[1m>[0m [90m6 
+|[0m [36mimport[0m 
+{ useSession } 
+[36mfrom[0m [32m"nex
+t-auth/react"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+[0m
+  [90m7 |[0m 
+[36mimport[0m { 
+useRouter } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m8 |[0m
+  [90m9 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mCartPage[0m() {
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Client Component SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x:5:1
+Module not found: 
+Can't resolve 
+'next-auth/react'
+  [90m3 |[0m 
+[36mimport[0m { 
+useState } 
+[36mfrom[0m 
+[32m"react"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+useCartStore 
+[36mfrom[0m [32m"@/s
+tore/cartStore"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ useSession } 
+[36mfrom[0m [32m"nex
+t-auth/react"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+useRouter } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m7 |[0m 
+[36mimport[0m 
+[33mScript[0m 
+[36mfrom[0m 
+[32m"next/script"[0m;
+  [90m8 |[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx:4
+:1
+Module not found: 
+Can't resolve 
+'next-auth/react'
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mimport[0m { 
+useState } 
+[36mfrom[0m 
+[32m"react"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+{ signIn } 
+[36mfrom[0m [32m"nex
+t-auth/react"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+useRouter } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m6 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+  [90m7 |[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx 
+[Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx 
+[Client Component SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx 
+[Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x:4:1
+Module not found: 
+Can't resolve 
+'next-auth/react'
+  [90m2 |[0m
+  [90m3 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+{ useSession, signOut 
+} [36mfrom[0m [32m"n
+ext-auth/react"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { [33m
+FiShoppingCart[0m, 
+[33mFiUser[0m, 
+[33mFiSearch[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m6 |[0m
+  [90m7 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mNavbar[0m() {
+
+
+
+Import trace:
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x
+    ./Website 
+Projects/Optics Store/s
+rc/app/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/components/Providers
+.tsx:3:1
+Module not found: 
+Can't resolve 
+'next-auth/react'
+  [90m1 |[0m 
+[32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 
+|[0m [36mimport[0m 
+{ [33mSessionProvider
+[0m } [36mfrom[0m [3
+2m"next-auth/react"[0m
+;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mReactNode[0m } 
+[36mfrom[0m 
+[32m"react"[0m;
+  [90m5 |[0m
+  [90m6 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mProviders[0m({ 
+children }: { 
+children: 
+[33mReactNode[0m }) {
+
+
+
+Import trace:
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/components/Providers
+.tsx
+    ./Website 
+Projects/Optics Store/s
+rc/app/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+:5:1
+Module not found: 
+Can't resolve 
+'react-icons/fi'
+  [90m3 |[0m 
+[36mimport[0m { 
+redirect } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ [33mFiHome[0m, 
+[33mFiBox[0m, [33mFi
+ShoppingBag[0m, 
+[33mFiUsers[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36masync[0m 
+[36mfunction[0m 
+[33mAdminLayout[0m({ 
+children }: { 
+children: [33mReact[0
+m.[33mReactNode[0m 
+}) {
+  [90m8 |[0m   
+[36mconst[0m session 
+= [36mawait[0m getSer
+verSession(authOptions)
+;
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/admin/orders/pag
+e.tsx:4:1
+Module not found: 
+Can't resolve 
+'react-icons/fi'
+  [90m2 |[0m 
+[36mimport[0m 
+[33mOrder[0m 
+[36mfrom[0m [32m"@/m
+odels/Order"[0m;
+  [90m3 |[0m 
+[36mimport[0m 
+[33mUser[0m 
+[36mfrom[0m [32m"@/m
+odels/User"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+{ [33mFiEye[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m 
+[36mexport[0m 
+[36mconst[0m 
+revalidate = 
+[35m0[0m;
+  [90m7 |[0m
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/admin/products/p
+age.tsx:4:1
+Module not found: 
+Can't resolve 
+'react-icons/fi'
+  [90m2 |[0m 
+[36mimport[0m 
+[33mProduct[0m 
+[36mfrom[0m [32m"@/m
+odels/Product"[0m;
+  [90m3 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+[31m[1m>[0m [90m4 
+|[0m [36mimport[0m 
+{ [33mFiPlus[0m, 
+[33mFiEdit2[0m, 
+[33mFiTrash2[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m 
+[36mexport[0m 
+[36mconst[0m 
+revalidate = 
+[35m0[0m;
+  [90m7 |[0m
+
+
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx:5:
+1
+Module not found: 
+Can't resolve 
+'react-icons/fi'
+  [90m3 |[0m 
+[36mimport[0m 
+useCartStore 
+[36mfrom[0m [32m"@/s
+tore/cartStore"[0m;
+  [90m4 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ [33mFiTrash2[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^[0
+m
+  [90m6 |[0m 
+[36mimport[0m { 
+useSession } 
+[36mfrom[0m [32m"nex
+t-auth/react"[0m;
+  [90m7 |[0m 
+[36mimport[0m { 
+useRouter } 
+[36mfrom[0m [32m"nex
+t/navigation"[0m;
+  [90m8 |[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Client Component SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx 
+[Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x:5:1
+Module not found: 
+Can't resolve 
+'react-icons/fi'
+  [90m3 |[0m 
+[36mimport[0m 
+[33mLink[0m 
+[36mfrom[0m 
+[32m"next/link"[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+useSession, signOut } 
+[36mfrom[0m [32m"nex
+t-auth/react"[0m;
+[31m[1m>[0m [90m5 
+|[0m [36mimport[0m 
+{ [33mFiShoppingCart[
+0m, [33mFiUser[0m, 
+[33mFiSearch[0m } 
+[36mfrom[0m [32m"rea
+ct-icons/fi"[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^[
+0m
+  [90m6 |[0m
+  [90m7 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mNavbar[0m() {
+  [90m8 |[0m   
+[36mconst[0m { data: 
+session } = 
+useSession();
+
+
+
+Import trace:
+  Server Component:
+    ./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x
+    ./Website 
+Projects/Optics Store/s
+rc/app/layout.tsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts:1
+:1
+Module not found: 
+Can't resolve 'zustand'
+[31m[1m>[0m [90m1 
+|[0m [36mimport[0m 
+{ create } 
+[36mfrom[0m 
+[32m'zustand'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^[0m
+  [90m2 |[0m 
+[36mimport[0m { 
+persist } 
+[36mfrom[0m [32m'zus
+tand/middleware'[0m;
+  [90m3 |[0m
+  [90m4 |[0m 
+[36mexport[0m 
+[36minterface[0m 
+[33mCartItem[0m {
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts 
+[Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts 
+[Client Component SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts:2
+:1
+Module not found: 
+Can't resolve 
+'zustand/middleware'
+  [90m1 |[0m 
+[36mimport[0m { 
+create } [36mfrom[0m 
+[32m'zustand'[0m;
+[31m[1m>[0m [90m2 
+|[0m [36mimport[0m 
+{ persist } 
+[36mfrom[0m [32m'zus
+tand/middleware'[0m;
+  [90m  |[0m [31m[1
+m^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+[0m
+  [90m3 |[0m
+  [90m4 |[0m 
+[36mexport[0m 
+[36minterface[0m 
+[33mCartItem[0m {
+  [90m5 |[0m   
+product: string; 
+[90m// product ID[0m
+
+
+
+Import traces:
+  Client Component 
+Browser:
+    ./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts 
+[Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+Browser]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+  Client Component SSR:
+    ./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts 
+[Client Component SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Client Component 
+SSR]
+    ./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x [Server Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts:2:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/auth/registe
+r/route.ts:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/seed/route.t
+s:6:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts:3
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/lib/mongodb.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/models/Category.ts:1
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/models/Order.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/models/Product.ts:1:
+1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/models/User.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/auth/[...nex
+tauth]/route.ts:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+:1:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/categories/r
+oute.ts:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/orders/route
+.ts:5:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/products/rou
+te.ts:5:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/api/razorpay/rou
+te.ts:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/lib/authOptions.ts:2
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx:6:
+1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/checkout/page.ts
+x:5:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/login/page.tsx:4
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/components/Providers
+.tsx:3:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/admin/layout.tsx
+:5:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/admin/orders/pag
+e.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/admin/products/p
+age.tsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/app/cart/page.tsx:5:
+1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/components/Navbar.ts
+x:5:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts:1
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> 
+(./Website 
+Projects/Optics Store/s
+rc/store/cartStore.ts:2
+:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
