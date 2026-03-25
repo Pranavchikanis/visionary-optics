@@ -37,13 +37,14 @@ export default function Navbar() {
             </button>
             {session ? (
               <div className="relative">
-                <div 
-                  className="text-gray-500 hover:text-indigo-600 cursor-pointer flex items-center transition-colors"
+                <button 
+                  type="button"
+                  className="text-gray-500 hover:text-indigo-600 cursor-pointer flex items-center transition-colors focus:outline-none"
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 >
-                  <FiUser className="h-5 w-5 mr-1.5" />
+                  <FiUser className="h-5 w-5 md:mr-1.5" />
                   <span className="text-sm font-medium hidden md:block">{session.user?.name?.split(' ')[0]}</span>
-                </div>
+                </button>
                 {isDropdownOpen && (
                   <>
                     <div 
